@@ -26,11 +26,15 @@ let isPrime;
 
 for (isPrime = 2; isPrime <= n; ++isPrime) {
     
+    if (isPrimeTest = true) {
+        console.log()
+    }
+
     function isPrimeTest() {
         let testPrime;
-        
+
         for (testPrime = 2; testPrime < isPrime; ++testPrime) { //loop to see if isPrime is a prime number
-            if (testPrime % isPrime) {
+            if (testPrime % isPrime === 0) {
                 return false;
             } else {
                 return true;
